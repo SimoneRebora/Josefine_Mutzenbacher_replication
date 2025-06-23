@@ -1,0 +1,8 @@
+feature,value
+my_corpus,corpus_full
+my_distance,dist.wurzburg
+MFW_base,50
+MFW_evolution_analysis,TRUE
+word_importance_analysis,FALSE
+word_removal_analysis,FALSE
+words_to_remove,mir mich ich du es sein ihm ihr ihn sie er sich
