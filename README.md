@@ -22,11 +22,11 @@ Features for the analyses are directly taken from the **"Analysis_configuration.
 
 ## Corpora
 
-Due to copyright limitations with the work of Ernst Klein, we are not allowed to share the texts used for the analysis. In any case, they should be included in the **"corpus_full"** and **"corpus_small"** folders (see respective **README.md** files for more information).
+Due to copyright limitations with the work of Ernst Klein, we are not allowed to share the texts used for the analysis. In any case, they should be included in the **"corpus_full"** and **"corpus_small"** folders (see respective **"README.md"** files for more information).
 
 ## Requirements
 
-R version 4.4.1 (2024-06-14) -- "Race for Your Life"  
+[R](https://www.r-project.org/) version 4.4.1 (2024-06-14) -- "Race for Your Life"  
 Required R libraries:
 
 - stylo (0.7.5)
