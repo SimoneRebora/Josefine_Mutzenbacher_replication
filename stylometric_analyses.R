@@ -374,7 +374,7 @@ if(length(words_to_remove)>0 & word_removal_analysis){
   my_distances <- stylo_results$distance.table[1,2:dim(stylo_results$distance.table)[1]]
   my_candidates <- names(my_distances) %>% strsplit(split = "_") %>% sapply(function(x) x[1])
   
-  my_df <- data.frame(my_distances, my_candidates, words = paste(MFW_base-length(words_to_remove), " MFW\n(excluding ", paste(words_to_remove, collapse = " "), ")", sep = ""))
+  my_df <- data.frame(my_distances, my_candidates, words = paste(MFW_base-length(words_to_remove), " MFW\n(excluding ", paste(words_to_remove, collapse = ", "), ")", sep = ""))
   my_df <- my_df %>%
     filter(my_candidates %in% c("salten", "klein"))
   
